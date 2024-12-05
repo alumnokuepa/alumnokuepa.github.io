@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web sencilla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Mi primer pagina como estudiante de UK</h1>
+        <p>Este es un proyecto para cumplir con el trabajo de la materia de sistemas computacionales dentro de la semana 2.</p>
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>En esta página aprenderás cómo se estructura y estiliza una página web básica utilizando HTML y CSS.</p>
+    </section>
+
+    <!-- Sección de Galería de Imágenes -->
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <img src="imagenes/07-BLOG-ing-sistemas-1.jpg" alt="07-BLOG-ing-sistemas-1.jpg">
+            <img src="imagenes/habilidades-ingeniero-sistemas-computacionales.webp" alt="habilidades-ingeniero-sistemas-computacionales.webp">
+            <img src="imagenes/ingenieria_sistemas-1024x631.jpg" alt="ingenieria_sistemas-1024x631.jpg">
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Página Web Sencilla. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
